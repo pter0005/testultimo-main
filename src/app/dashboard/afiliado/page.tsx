@@ -87,8 +87,8 @@ export default function AfiliadoPage() {
             </p>
             <div className="text-center">
               <Link href="https://www.dropbox.com/scl/fi/fsiryayp5my8im9qvc59w/Ebook_Domine_as_Redes_Sociais_Corrigido.pdf?rlkey=7largbxkzv6nyztoxcx0v0tt3&st=6742rgn1&dl=1" passHref legacyBehavior>
- <a target="_blank" rel="noopener noreferrer">
-                  <Button variant="default" size="md" className="shine-button bg-blue-600 text-white hover:bg-blue-700 w-full sm:w-auto sm:size-lg">
+                <a target="_blank" rel="noopener noreferrer">
+                  <Button variant="default" size="lg" className="shine-button bg-blue-600 text-white hover:bg-blue-700 w-full sm:w-auto sm:size-lg">
                     <FileText className="mr-2 h-5 w-5" />
                     Baixar Guia de Afiliação (PDF)
                   </Button>
