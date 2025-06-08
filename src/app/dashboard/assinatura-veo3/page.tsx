@@ -4,11 +4,11 @@
 import Link from 'next/link';
 // import Image from 'next/image'; // Not used in this version
 import { Button } from '@/components/ui/button';
-import { ArrowLeft } from 'lucide-react'; 
+import { ArrowLeft } from 'lucide-react';
 import Footer from '@/components/layout/Footer';
 
 export default function AssinaturaVeo3AulaPage() {
-  const videoId = 'OMHKkO-O8ow'; 
+  const videoId = 'OMHKkO-O8ow';
   const videoUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&modestbranding=1&rel=0`;
 
   return (
@@ -29,16 +29,16 @@ export default function AssinaturaVeo3AulaPage() {
           </Link>
         </div>
       </header>
-      
+
       <main className="flex-grow container mx-auto py-8 px-4 sm:px-6 lg:px-8 flex flex-col items-center">
         <h1 className="text-3xl sm:text-4xl font-bold mb-8 text-center text-primary">
           Aula: Como Obter Assinatura VEO3 Gratuitamente
         </h1>
-        
+
         <div className="w-full max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 items-start">
           {/* Coluna do Vídeo */}
           <div className="lg:w-3/4 w-full">
-            <div 
+            <div
               className="w-full aspect-video rounded-xl shadow-2xl border border-primary/30 bg-card relative"
               style={{
                 maskImage: 'linear-gradient(to right, transparent, black 8%, black 92%, transparent)',
@@ -59,12 +59,12 @@ export default function AssinaturaVeo3AulaPage() {
               </div>
             </div>
           </div>
-          
+
           {/* Coluna da Descrição */}
           <div className="lg:w-1/4 w-full">
             <div
               className="
-                w-full 
+                w-full
                 bg-card/70 backdrop-blur-md p-4 sm:p-6 rounded-lg shadow-lg border border-border/30
                 text-left"
             >
@@ -75,7 +75,7 @@ export default function AssinaturaVeo3AulaPage() {
             </div>
           </div>
         </div>
-        
+
         {/* Seção de Suporte */}
         <div className="mt-10 w-full max-w-3xl text-center p-6 bg-card/30 rounded-lg border border-border/20 shadow-md">
           <div className="text-sm text-muted-foreground">
