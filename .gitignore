@@ -1,0 +1,9 @@
+node_modules
+.next
+dist
+out
+*.log
+*.zip
+*.mp4
+*.psd.txt
+.env
