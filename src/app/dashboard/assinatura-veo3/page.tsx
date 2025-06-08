@@ -8,7 +8,7 @@ import { ArrowLeft } from 'lucide-react';
 import Footer from '@/components/layout/Footer';
 
 export default function AssinaturaVeo3AulaPage() {
-  const videoId = 'OMHKkO-O8ow';
+  const videoId = 'OMHKkO-O8ow'; // ID do vídeo configurado diretamente
   const videoUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&modestbranding=1&rel=0`;
 
   return (
