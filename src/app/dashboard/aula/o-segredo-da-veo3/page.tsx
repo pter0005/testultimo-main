@@ -92,7 +92,7 @@ export default function SegredoDaVeo3AulaPage() {
             <div className="mt-6">
               <Link href="https://www.dropbox.com/scl/fi/mieozdf2r1g1l2eq0zy5v/PROMPTS-AULA-COLCHETES-1.pdf?rlkey=5jr1pi6zo4ja8avec6uu2aakv&st=59o1chlg&dl=1" passHref legacyBehavior>
                 <a target="_blank" rel="noopener noreferrer">
-                  <Button variant="primary" size="md" className="shine-button w-full sm:w-auto sm:size-lg">
+                  <Button variant="default" size="md" className="shine-button w-full sm:w-auto sm:size-lg">
                     <FileText className="mr-2 h-5 w-5" />
                     Baixar E-book COMPLEMENTAR (PDF)
                   </Button>
@@ -116,4 +116,3 @@ export default function SegredoDaVeo3AulaPage() {
     </div>
   );
 }
-
