@@ -82,13 +82,13 @@ export default function AfiliadoPage() {
 
           <div className="mt-10 w-full bg-card/30 rounded-lg border border-border/20 shadow-md p-6 sm:p-8">
             <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-4 text-center">Instruções para se Afiliar</h2>
-            <p className="text-foreground/90 leading-relaxed text-center mb-6">
+            <p className="text-foreground/90 leading-relaxed text-center mb-6 text-sm sm:text-base">
               Acesse nosso guia com instruções e materiais para te ajudar a divulgar o curso!
             </p>
             <div className="text-center">
               <Link href="https://www.dropbox.com/scl/fi/fsiryayp5my8im9qvc59w/Ebook_Domine_as_Redes_Sociais_Corrigido.pdf?rlkey=7largbxkzv6nyztoxcx0v0tt3&st=6742rgn1&dl=1" passHref legacyBehavior>
-                <a target="_blank" rel="noopener noreferrer">
-                  <Button variant="default" size="lg" className="shine-button bg-blue-600 text-white hover:bg-blue-700">
+ <a target="_blank" rel="noopener noreferrer">
+                  <Button variant="default" size="md" className="shine-button bg-blue-600 text-white hover:bg-blue-700 w-full sm:w-auto sm:size-lg">
                     <FileText className="mr-2 h-5 w-5" />
                     Baixar Guia de Afiliação (PDF)
                   </Button>
@@ -112,3 +112,4 @@ export default function AfiliadoPage() {
     </div>
   );
 }
+

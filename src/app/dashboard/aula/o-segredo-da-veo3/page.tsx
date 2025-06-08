@@ -86,13 +86,13 @@ export default function SegredoDaVeo3AulaPage() {
         {/* E-book and Support Section */}
         <div className="mt-10 w-full max-w-3xl text-center space-y-6 p-6 bg-card/30 rounded-lg border border-border/20 shadow-md">
           <div>
-            <p className="text-foreground/90 leading-relaxed">
+            <p className="text-foreground/90 leading-relaxed text-sm sm:text-base">
               Clique no arquivo abaixo para baixar o E-book COMPLEMENTAR. É de suma importância que você assista o vídeo completo, e somente DEPOIS entre no e-book.
             </p>
             <div className="mt-6">
               <Link href="https://www.dropbox.com/scl/fi/mieozdf2r1g1l2eq0zy5v/PROMPTS-AULA-COLCHETES-1.pdf?rlkey=5jr1pi6zo4ja8avec6uu2aakv&st=59o1chlg&dl=1" passHref legacyBehavior>
                 <a target="_blank" rel="noopener noreferrer">
-                  <Button variant="primary" size="lg" className="shine-button">
+                  <Button variant="primary" size="md" className="shine-button w-full sm:w-auto sm:size-lg">
                     <FileText className="mr-2 h-5 w-5" />
                     Baixar E-book COMPLEMENTAR (PDF)
                   </Button>
@@ -116,3 +116,4 @@ export default function SegredoDaVeo3AulaPage() {
     </div>
   );
 }
+

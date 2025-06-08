@@ -50,22 +50,16 @@ export default function AssinaturaVeo3AulaPage() {
               }}
             >
               <div className="rounded-xl overflow-hidden h-full w-full">
-                {videoId === 'SEU_VIDEO_ID_AQUI' ? (
-                  <div className="w-full h-full flex items-center justify-center bg-muted text-muted-foreground">
-                    <p>Por favor, configure o ID do vídeo do YouTube.</p>
-                  </div>
-                ) : (
-                  <iframe
-                    width="100%"
-                    height="100%"
-                    src={videoUrl}
-                    title="YouTube video player - Aula Assinatura VEO3"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                  ></iframe>
-                )}
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src={videoUrl}
+                  title="YouTube video player - Aula Assinatura VEO3"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
           </div>

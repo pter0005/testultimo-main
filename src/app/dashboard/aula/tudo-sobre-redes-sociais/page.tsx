@@ -88,14 +88,14 @@ export default function TudoSobreRedesSociaisAulaPage() {
         {/* E-book and Support Section - Pode precisar ser personalizado para esta aula */}
         <div className="mt-10 w-full max-w-3xl text-center space-y-6 p-6 bg-card/30 rounded-lg border border-border/20 shadow-md">
           <div>
-            <p className="text-foreground/90 leading-relaxed">
+            <p className="text-foreground/90 leading-relaxed text-sm sm:text-base">
               Clique no arquivo abaixo para baixar o material complementar desta aula.
             </p>
             <div className="mt-6">
               {/* ATENÇÃO: Atualize o href e o nome do arquivo se houver um e-book específico para esta aula */}
               <Link href="https://www.dropbox.com/scl/fi/fsiryayp5my8im9qvc59w/Ebook_Domine_as_Redes_Sociais_Corrigido.pdf?rlkey=7largbxkzv6nyztoxcx0v0tt3&st=1ua655el&dl=1" passHref legacyBehavior>
                 <a target="_blank" rel="noopener noreferrer">
-                  <Button variant="primary" size="lg" className="shine-button">
+                  <Button variant="primary" size="md" className="shine-button w-full sm:w-auto sm:size-lg">
                     <FileText className="mr-2 h-5 w-5" />
                     Baixar Material Complementar (PDF)
                   </Button>
@@ -119,3 +119,4 @@ export default function TudoSobreRedesSociaisAulaPage() {
     </div>
   );
 }
+

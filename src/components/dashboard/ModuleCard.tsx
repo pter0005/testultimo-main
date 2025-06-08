@@ -40,10 +40,10 @@ export const ModuleCard: FC<ModuleCardProps> = ({
         />
       </CardHeader>
       <CardContent className="p-4 flex-grow">
-        <CardTitle className="text-md font-semibold leading-tight mb-1 text-foreground">
+        <CardTitle className="text-lg font-semibold leading-tight mb-1 text-foreground">
           {title}
         </CardTitle>
-        <p className="text-xs text-muted-foreground line-clamp-3"> {/* Increased line-clamp for longer descriptions */}
+        <p className="text-sm text-muted-foreground line-clamp-3"> {/* Increased line-clamp for longer descriptions */}
           {description}
         </p>
       </CardContent>
@@ -58,3 +58,4 @@ export const ModuleCard: FC<ModuleCardProps> = ({
     </Card>
   );
 };
+
