@@ -95,7 +95,7 @@ export default function TudoSobreRedesSociaisAulaPage() {
               {/* ATENÇÃO: Atualize o href e o nome do arquivo se houver um e-book específico para esta aula */}
               <Link href="https://www.dropbox.com/scl/fi/fsiryayp5my8im9qvc59w/Ebook_Domine_as_Redes_Sociais_Corrigido.pdf?rlkey=7largbxkzv6nyztoxcx0v0tt3&st=1ua655el&dl=1" passHref legacyBehavior>
                 <a target="_blank" rel="noopener noreferrer" data-ai-hint="Link to download the supplementary material for the social media class. Opens in a new tab.">
-                  <Button variant="default" size="md" className="shine-button w-full sm:w-auto sm:size-lg">
+                  <Button variant="default" size="default" className="shine-button w-full sm:w-auto sm:size-lg">
                     <FileText className="mr-2 h-5 w-5" />
                     Baixar Material Complementar (PDF)
                   </Button>
